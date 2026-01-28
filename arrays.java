@@ -1,0 +1,23 @@
+public class arrays {
+    public static void main(String[] args) {
+        /*String student1="engin";
+        String student2="derin";
+        String student3="salih";
+        /*
+         System.out.println(student1);
+        System.out.println(student2);
+        System.out.println(student3);
+         */
+        
+        String[] students= new String[3];
+        students[0]="engin";
+        students[1]="derin";
+        students[2]="salih";
+        for(int i=0;i<students.length;i++){
+            System.out.println(students[i]);
+        }
+        for(String student:students){
+            System.out.println(student);
+        }
+    }
+}
